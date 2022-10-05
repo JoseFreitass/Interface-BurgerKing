@@ -1,0 +1,91 @@
+.cover{
+    width: 100%;
+    height: 545px;
+    padding: 10px;
+    background-image: url('/assets/banner-hero.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.cover_items{
+    margin: 0 auto;
+    width: 1300px;
+    height: 545px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.titulo{
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 22.861px;
+    line-height: 23px;
+    color: rgba(29, 6, 5, 0.9);
+}
+
+
+.cover_items h1{
+    font-family: 'Lilita One';
+    font-weight: 400;
+    font-size: 77.651px;
+    line-height: 85px;
+    color: rgba(29, 6, 5, 0.9);
+}
+
+.cor_font{
+    color:#F59A1B;
+}
+
+.sub_titulo{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22.861px;
+    line-height: 32px;
+}
+
+.cor_paragrafo{
+    width: 201.85px;
+    height: 30.67px;
+    padding: 2px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #F59A1B;
+    border-radius: 6.35029px;
+    color: rgba(29, 6, 5, 0.9);
+}
+
+.btn_cover{
+    width: 200px;
+    height: 52.32px;
+    font-weight: 700;
+    font-size: 22.861px;
+    line-height: 32px;
+    margin-top: 10px;
+    font-family: 'Lato';
+    border: none;
+    color: white;
+    background-color: #F43127;
+    border-radius: 5.08023px;
+    cursor: pointer;
+}
+
+.cover_inf{
+    margin: 0 auto;
+    position: absolute;
+    width: 970px;
+    /* height: 118.54px; */
+    /* margin-top: -60px; */
+    /* background-color: aqua; */
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itens{
+    display: flex;
+}
