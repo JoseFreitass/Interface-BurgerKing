@@ -75,17 +75,52 @@
 .cover_inf{
     margin: 0 auto;
     position: absolute;
-    width: 970px;
-    /* height: 118.54px; */
-    /* margin-top: -60px; */
-    /* background-color: aqua; */
+    width: 100%;
+    margin-top: -50px;
 }
 .container{
+    margin: 0 auto;
     display: flex;
+    width: 1000px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 0px 4px 40px rgba(179, 155, 132, 0.5);
+    border-radius: 10px; 
 }
 
 .itens{
     display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.linha{
+    width: 0px;
+    height: 83.53px;
+    margin-left: 60px;
+    border: 1px solid rgba(73, 46, 21, 0.15);
+}
+
+.logo{
+    padding: 15px;
+    border-radius: 100%;
+    background: #FAE2CB;
+    margin-right: 20px;
+}
+.informacoes{
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: rgba(29, 6, 5, 0.9);
+}
+
+.informacoes_1{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(29, 6, 5, 0.69);
 }
