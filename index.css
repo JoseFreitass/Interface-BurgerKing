@@ -25,6 +25,10 @@
 
 .menu_itens{
     display: flex;
+}
+
+.menu_itens ul{
+    display: flex;
     align-items: center;
 }
 
