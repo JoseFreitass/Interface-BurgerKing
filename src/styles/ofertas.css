@@ -1,0 +1,72 @@
+.ofertas{
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 150px;
+
+}
+
+
+.titulo_ofertas{
+    margin: 0 auto;
+    width: 1300px;
+    text-align: start;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    font-family: 'Lilita One';
+    color: rgba(29, 6, 5, 0.9);
+
+}
+
+.subtitulo_ofertas{
+    font-family: 'lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 52px;
+    color: rgba(29, 6, 5, 0.69);
+}
+
+.layout{
+    margin: 0 auto;
+    width: 100%;
+
+    /* background-color: yellowgreen; */
+}
+
+.grid {
+    margin: 0 auto;
+    width: 1300px;
+	display: grid;
+    justify-items: start;
+    grid-row-start: 1;
+    
+
+    /* background-color: aquamarine; */
+}
+
+.grid-template-areas-2 {
+	grid-template-areas:
+		"img3 img1"
+		"img3 img2"
+		;
+}
+
+.item {
+	text-align: center;
+} 
+
+.img1 {
+	grid-area: img1;
+    /* min-width: 300px; */
+}
+
+.img2 { 
+	grid-area: img2;
+    
+}
+
+.img3 {
+	grid-area: img3;
+    
+}
