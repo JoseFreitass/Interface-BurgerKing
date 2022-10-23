@@ -1,0 +1,27 @@
+.localizacao{
+    width: 100%;
+}
+
+.texto_localizacao{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.texto_localizacao h3{
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    color: rgba(29, 6, 5, 0.9);
+}
+
+.texto_localizacao p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 30px;
+    color: rgba(29, 6, 5, 0.69);
+}
