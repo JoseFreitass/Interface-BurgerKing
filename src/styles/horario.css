@@ -1,0 +1,80 @@
+.horario_funcionamento{
+    width: 100%;
+    margin-top: 50px;
+
+    margin-bottom: 300px;
+}
+
+.container_horario{
+    margin: 0 auto;
+    width: 69%;
+    display: flex;
+    align-items: center;
+}
+
+.informacoes_horario{
+    width: 50%;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+
+    background-color: #F43127;
+}
+
+.linha_horario{
+    height: 82.74px;
+    border: 1px solid rgba(29, 6, 5, 0.4);
+}
+
+.inf_dia h2{
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28px;
+    color: rgba(29, 6, 5, 0.69);
+}
+
+.inf_dia p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+
+.social_horario{
+    margin-left: 20px;
+}
+
+.social_horario p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.social_horario span{
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28.0202px;
+    line-height: 28px;
+    color: #F43127;
+}
+
+
+@media (max-width: 1400px) {
+    .linha_horario{
+        height: 82.74px;
+        border: 1px solid rgba(0, 0, 0, 0.4);
+        margin: 20px;
+    }
+}
