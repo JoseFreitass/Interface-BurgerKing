@@ -9,7 +9,7 @@
 
 .cover_items{
     margin: 0 auto;
-    width: 1300px;
+    width: 78%;
     height: 545px;
     display: flex;
     flex-direction: column;
@@ -70,17 +70,27 @@
     background-color: #F43127;
     border-radius: 5.08023px;
     cursor: pointer;
+    transition: 0.3s;
 }
+
+.btn_cover:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    background-color: #a1160f;
+}
+
+/* INFORMAÇÕES */
 
 .cover_inf{
     position: absolute;
     width: 100%;
     margin-top: -50px;
 }
+
 .container{
     margin: 0 auto;
     display: flex;
-    width: 1000px;
+    width: 60%;
     align-items: center;
     justify-content: space-around;
     background-color: white;
@@ -123,4 +133,77 @@
     font-size: 16px;
     line-height: 19px;
     color: rgba(29, 6, 5, 0.69);
+}
+
+/* @media(max-width: 1580px){
+    
+} */
+
+
+@media(max-width: 1300px){
+    .cover_items{
+        width: 100%;
+        margin-left: 30px;
+    }
+}
+
+@media(max-width: 800px){
+    .cover{
+        width: 100%;
+        height: 855.46px;
+        background-image: url('../assets/banner-mobile.png');
+    }
+
+    .cover_items{
+        width: 100%;
+        margin-top: 70px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: start;
+    }
+
+    .titulo{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: rgba(29, 6, 5, 0.9);
+    }
+    
+    
+    .cover_items h1{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 53.3477px;
+        line-height: 59px;
+    }
+
+
+    .sub_titulo{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .cor_paragrafo{
+        padding: 2px;
+        font-size: 25px;
+        font-weight: bold;
+        font-size: 16px;
+        width: 142.31px;
+        height: 24.08px;
+        left: 154.5px;
+        top: 186px;
+        border-radius: 5px;
+    }
+
+    .btn_cover{
+        margin-top: 10px;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 22px;
+        width: 151.64px;
+        height: 43.32px;
+        left: 23.85px;
+        top: 225.23px;
+    }
 }
