@@ -104,6 +104,11 @@
     .oferta_content img {
         height: auto;
     }
+
+    .oferta_content :first-child img{
+        height: 100%;
+    }
+
     .oferta_subtitulo {
         display: none;
     }

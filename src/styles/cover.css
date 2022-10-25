@@ -82,6 +82,8 @@
 /* INFORMAÇÕES */
 
 .cover_inf{
+    margin: 0 auto;
+    display: flex;
     position: absolute;
     width: 100%;
     margin-top: -50px;
@@ -103,6 +105,7 @@
     padding: 20px;
     align-items: center;
 }
+
 .linha{
     width: 0px;
     height: 83.53px;
@@ -117,6 +120,7 @@
     background: #FAE2CB;
     margin-right: 20px;
 }
+
 .informacoes{
     font-family: 'Lilita One';
     font-style: normal;
@@ -138,12 +142,91 @@
 /* @media(max-width: 1580px){
     
 } */
+@media(max-width: 1600px){
+    .container{
+        justify-content: space-evenly;
+    }
+    
+    .itens{
+        display: flex;
+        padding: 8px;
+    }
+    
+    .logo{
+        padding: 8px;
+        margin-right: 10px;
+    }
+    
+    .informacoes{
+        font-size: 12px;
+        line-height: 12px;
+    }
+    
+    .informacoes_1{
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .linha{
+        margin-left: 50px;
+    }
+}
+
+@media(max-width: 1200px){  
+    .itens{
+        display: flex;
+        padding: 5px;
+    }
+    
+    .logo{
+        padding: 8px;
+        margin-right: 10px;
+    }
+    
+    .informacoes{
+        font-size: 12px;
+        line-height: 12px;
+    }
+    
+    .informacoes_1{
+        font-size: 10px;
+        line-height: 10px;
+    }
+}
+
+@media(max-width: 900px){
+    .container{
+        display: block;
+        width: 100%;
+        margin: 20px;
+
+    }
+
+    .logo{
+        padding: 15px;
+    }
+    
+    .itens{
+        margin: 10px;
+    }
+
+    .itens:nth-child(2){
+        border-top: 1px solid rgba(73, 46, 21, 0.15);
+        border-bottom: 1px solid rgba(73, 46, 21, 0.15);
+    }
+
+    .linha{
+        width: 0px;
+        height: 83.0px;
+        margin-left: 0px;
+        border: none;
+    }
+}
 
 
 @media(max-width: 1300px){
     .cover_items{
         width: 100%;
-        margin-left: 30px;
     }
 }
 
