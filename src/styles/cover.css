@@ -195,11 +195,14 @@
 }
 
 @media(max-width: 900px){
+
+    .cove_inf{
+        margin-bottom: 1000px;
+    }
     .container{
         display: block;
         width: 100%;
         margin: 20px;
-
     }
 
     .logo{

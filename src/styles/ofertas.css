@@ -107,28 +107,46 @@
 
     .oferta_content :first-child img{
         height: 100%;
-    }
-
-    .oferta_subtitulo {
-        display: none;
-    }
-
-    .oferta_texto{
-        width: 90%;
+        min-width: 10vw;
     }
 
     .oferta_texto h2 {
-        font-size: 2.5rem;
+        font-size: 25px;
         margin-bottom: 8px;
-    }
-    .oferta_subtitulo h4 {
-        font-size: 1.1rem;
     }
 
     .oferta_titulo h3 {
-        font: 400 1.25rem 'Lilita One', sans-serif;
+        font: 400 15px 'Lilita One', sans-serif;
         text-transform: uppercase;
     }
+
+    .oferta_subtitulo h4{
+        font-size: 15px;
+    }
+
+
+    .oferta_subtitulo span{
+        font-size: 25px;
+    }
+
+}
+
+
+
+@media (max-width: 900px) {
+    #oferta {
+        margin-top: 200px;
+  
+    }
+    .oferta_content {
+        width: 100%;
+        grid-template-columns: auto;
+    }
+
+    .oferta_texto{
+        width: 100%;
+    }
+    
 }
 
 

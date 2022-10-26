@@ -19,9 +19,6 @@
     border-radius: 10px;
     align-items: center;
     justify-content: space-evenly;
-
-
-
     background-color: #F43127;
 }
 
@@ -77,4 +74,41 @@
         border: 1px solid rgba(0, 0, 0, 0.4);
         margin: 20px;
     }
+}
+
+@media (max-width: 900px) {
+    
+    .container_horario{
+        display: block;
+    }
+
+    .inf_dia h2{
+        font-size: 20px;
+    }
+
+
+    .informacoes_horario{
+       width: 100%;
+       padding: 12px;
+    }
+
+    .social_horario{
+       width: 100%;
+       margin-top: 50px;
+       text-align: center;
+       margin-left: 0px;
+    }
+
+    .social_horario p{
+        font-size: 14px;
+    }
+    
+    .social_horario span{
+        font-size: 35px;
+    }
+
+    .container_horario{
+        width: 90%;
+    }
+
 }
