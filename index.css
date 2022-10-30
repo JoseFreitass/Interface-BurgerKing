@@ -107,7 +107,7 @@ body{
     height: 46%;
     position: absolute;
     top: 0;
-    padding: 10px;
+    padding: 12px;
     animation: 0.6s menu_mobile;
     z-index: 1;
 }
@@ -179,7 +179,7 @@ body{
     .menu {
         align-items: center;
         justify-content: space-between;
-        padding: 10px;
+        padding: 8px;
     }
 
     .open_menu{
@@ -189,7 +189,7 @@ body{
         position: absolute;
         top: 0px;
         right: 0px;
-        padding: 10px;
+        padding: 12px;
     }
 
     .menu_logo{

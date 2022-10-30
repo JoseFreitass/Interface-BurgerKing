@@ -59,7 +59,8 @@
 
 .rodape_direitos{
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
+    padding: 20px;
     text-align: center;
     font-family: 'Lato';
     font-style: normal;
@@ -79,23 +80,39 @@
 
 @media (max-width: 1100px) {
     .menu_rodape{
-        display: block;
+        display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
-        font-family: 'Lato';
+        justify-content: center;
+
+    }
+    .ordem0{
+        order: 0;
     }
 
-
-    .menu_itens_rodape{
-        display: block;
+    .ordem1{
+        order: 1;
     }
 
-
-    .menu_rodape .menu_itens_rodape:nth-child(2) {
-        order: -2;
+    .menu_itens_rodape ul{
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
     }
-    .menu_rodape .itens_icones_rodape:nth-child(1) {
-        order: -1;
+
+    .menu_itens_rodape li{
+        padding: 7px;
+    }
+
+    .itens_icones_rodape{
+        width: 80%;
+        margin-top: 10px;
+        border-top: 1px solid rgba(29, 6, 5, 0.15);
+        border-bottom: 1px solid rgba(29, 6, 5, 0.15);
+    }
+    .icones_rodape{
+        margin: 0 auto;
+        padding: 5px;
     }
     
 }
