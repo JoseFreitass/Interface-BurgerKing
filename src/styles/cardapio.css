@@ -1,0 +1,126 @@
+.cardapio{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.container_cardapio{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover_cardapio{
+    width: 100%;
+    background-image: url('../assets/banner-menu.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.inf_carapio{
+    width: 50%;
+    height: 545px;
+    margin-left: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.inf_carapio h1{
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 41.4213px;
+    line-height: 46px;
+}
+
+.inf_carapio p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+
+.cor_font_cardapio{
+    width: 201.85px;
+    height: 30.67px;
+    padding: 2px;
+    font-weight: bold;
+    background-color: #F59A1B;
+    border-radius: 6.35029px;
+    color: rgba(29, 6, 5, 0.9);
+}
+
+
+.btn_cardapio{
+    width: 200px;
+    height: 52.32px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    background-color: #F43127;
+    border-radius: 5.08023px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn_cardapio:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    background-color: #a1160f;
+}
+
+
+
+.cardapio_burger{
+    width: 100%;
+    height: 545px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 25px;
+
+    background-color: #3B200B;
+}
+
+.cardapio_burger h1{
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    margin-top: 20px;
+    color: #F59A1B;
+}
+
+.cardapio_burger h3{
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #FAE4D0;
+}
+
+.cardapio_burger p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
+

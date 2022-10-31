@@ -21,6 +21,8 @@ body{
 }
 
 .menu{
+    margin: 0 auto;
+    width: 1300px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -29,7 +31,7 @@ body{
 
 .menu_itens{
     display: flex;
-    margin-right: 80px;
+    /* margin-right: 80px; */
 }
 
 .menu_itens ul{
