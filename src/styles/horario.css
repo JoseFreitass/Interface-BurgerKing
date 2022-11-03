@@ -7,8 +7,8 @@
 
 .container_horario{
     margin: 0 auto;
-    /* width: 69%; */
-    width: 1180px;
+    width: 50%;
+    /* width: 1180px; */
     display: flex;
     align-items: center;
 }

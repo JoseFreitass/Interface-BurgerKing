@@ -123,4 +123,86 @@
 }
 
 
+@media(max-width: 1500px){
+
+
+    .inf_carapio{
+        margin-left: 230px;
+    }
+    
+    .inf_carapio h1{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        padding: 20px;
+    }
+
+    
+    .inf_carapio p{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        padding: 20px;
+    }
+
+
+    .cardapio_burger{
+        padding: 25px;
+    }
+    
+    .cardapio_burger h1{
+        margin-top: 20px;
+        font-size: 25px;
+        line-height: 28px;
+        color: #F59A1B;
+    }
+
+    .cardapio_burger h3{
+        font-size: 16px;
+    }
+    
+    
+    .cardapio_burger p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media(max-width: 1100px){
+    .container_cardapio{
+        margin: 0 auto;
+        width: 100%;
+        display: block;
+    }
+
+    .inf_carapio{
+        margin: 0 auto;
+        width: 100%;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;    
+    }
+
+}
+
+@media(max-width: 500px){
+    .cardapio_burger h1{
+        font-size: 17px;
+        margin-top: 8px;
+    }
+
+    .cardapio_burger h3{
+        font-size: 14px;
+    }
+    
+    
+    .cardapio_burger p{
+        font-size: 12px;
+    }
+}
+
 
