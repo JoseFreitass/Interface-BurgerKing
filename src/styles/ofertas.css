@@ -6,8 +6,8 @@
 }
 .oferta_content {
     margin: 0 auto;
-    /* width: 70%; */
-    width: 1180px;
+    width: 63%;
+    /* width: 1180px; */
     display: grid;
     grid-template-columns: auto auto;
     gap: 30px;
@@ -21,8 +21,8 @@
 
 .oferta_texto{
     margin: 0 auto;
-    /* width: 70%; */
-    width: 1180px;
+    width: 63%;
+    /* width: 1180px; */
 }
 
 
