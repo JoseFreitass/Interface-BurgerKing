@@ -1,0 +1,53 @@
+
+.atendimento{
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
+.container_atendimento{
+    margin: 0 auto;
+    width: 61.5%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner_atendimento{
+    width: 50%;
+}
+
+.cover_atendimento{
+    width: 100%;
+}
+
+.inf_atendimento{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    /* margin-left: 10px; */
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+}
+
+.inf_atendimento h1{
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 41.4213px;
+    line-height: 46px;
+}
+
+.inf_atendimento p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+}

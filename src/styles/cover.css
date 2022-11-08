@@ -9,13 +9,13 @@
 
 .cover_items{
     margin: 0 auto;
-    /* width: 1180px; */
     width: 62.3%;
     height: 545px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    
 }
 
 .titulo{
@@ -93,7 +93,7 @@
 .container{
     margin: 0 auto;
     display: flex;
-    width: 60%;
+    width: 50%;
     align-items: center;
     justify-content: space-around;
     background-color: white;
@@ -140,9 +140,6 @@
     color: rgba(29, 6, 5, 0.69);
 }
 
-/* @media(max-width: 1580px){
-    
-} */
 @media(max-width: 1600px){
 
     .cover_items{
@@ -199,7 +196,7 @@
     }
 }
 
-@media(max-width: 900px){
+@media(max-width: 1200px){
 
     .cove_inf{
         margin-bottom: 1000px;

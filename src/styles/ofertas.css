@@ -7,7 +7,6 @@
 .oferta_content {
     margin: 0 auto;
     width: 63%;
-    /* width: 1180px; */
     display: grid;
     grid-template-columns: auto auto;
     gap: 30px;
@@ -22,7 +21,6 @@
 .oferta_texto{
     margin: 0 auto;
     width: 63%;
-    /* width: 1180px; */
 }
 
 
@@ -135,7 +133,7 @@
 
 
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
     #oferta {
         margin-top: 200px;
   
@@ -151,49 +149,4 @@
     
 }
 
-
-
-  /* 
-  @media screen and  (max-width: 800px) {
-    #offer {
-      margin-bottom: 38px;
-    }
-  
-    .offer__content {
-      grid-template-columns: 1fr;
-      gap: 8px;
-    }
-  
-    .offer__subtitle {
-      position: absolute;
-      bottom: 155px;
-      right: 35px;
-    }
-  
-    .offer__text h2 {
-      font-size: 2.5rem;
-      margin-bottom: 8px;
-    }
-    
-    .offer__text p {
-      font-size: 1.6rem;
-    }
-  
-    .offer__title h3 {
-      font-size: 2.05rem;
-    }
-    
-    .offer__subtitle {
-      position: absolute;
-      bottom: 15px;
-      right: 15px;
-    }
-  
-    .offer__subtitle h4 {
-      font-size: 1.1rem;
-    }
-  
-    .offer__subtitle span {
-      font-size: 2rem;
-    } */
 
