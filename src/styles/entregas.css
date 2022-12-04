@@ -78,6 +78,12 @@
 
 
 @media(max-width: 1400px){
+    .banner_entregas img{
+        width: 400px;
+    }
+}
+
+@media(max-width: 1100px){
     .container_entregas{
         display: block;
     }
@@ -88,7 +94,7 @@
     }
 
     .banner_entregas img{
-        width: 200px;
+        width: 500px;
     }
 
     .inf_entregas h1{

@@ -62,13 +62,13 @@
     }
 }
 
-@media(max-width: 1400px){
+@media(max-width: 1100px){
     .container_atendimento{
     display: block;
 }
 
     .banner_atendimento img{
-    width: 200px;
+    width: 500px;
 }
 
     .inf_atendimento{

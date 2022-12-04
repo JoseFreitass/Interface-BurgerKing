@@ -18,11 +18,14 @@
     border-radius: 10px;
 }
 
+.img_1oferta{
+    min-width: 270px;
+}
+
 .oferta_texto{
     margin: 0 auto;
     width: 63%;
 }
-
 
 .oferta_texto h2 {
     font: 400 3.2rem 'Lilita One', sans-serif;
