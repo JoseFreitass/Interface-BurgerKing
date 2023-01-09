@@ -17,7 +17,6 @@
 
 .banner_atendimento{
     width: 50%;
-
 }
 
 .cover_atendimento{
@@ -58,7 +57,7 @@
 
 @media(max-width: 1500px){
     .banner_atendimento img{
-        width: 370px;
+        width: 800px;
     }
 }
 
@@ -87,3 +86,11 @@
 }
 
 }
+
+@media(max-width: 730px){
+    .banner_atendimento img{
+    width: 200px;
+}
+}
+
+
